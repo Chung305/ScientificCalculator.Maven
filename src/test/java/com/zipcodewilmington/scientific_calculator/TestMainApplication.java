@@ -5,7 +5,4 @@ package com.zipcodewilmington.scientific_calculator;
  */
 public class TestMainApplication {
 
-    @Test
-    String TestManny = "Does this work?"
 }
-@test
