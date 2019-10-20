@@ -37,7 +37,6 @@ public class Console {
     }
 
 
-
     /////Prompt Functions///
     /////////////////////////
      public static int corePrompt(){
@@ -138,5 +137,6 @@ public class Console {
         Console.print("\n 1/" + x + " = ");
         return basic.inverse(x);
     }
+
 
 }

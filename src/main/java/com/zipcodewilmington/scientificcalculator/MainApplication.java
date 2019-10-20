@@ -60,7 +60,7 @@ public class MainApplication {
                     break;
                 case 9 :
                     ///////SWITCH TO SCIENTIFIC CALCULATOR/////////
-                    //////////////////////////////////////////////
+
                     break;
                 case 10 :
                     turnOn = false;
