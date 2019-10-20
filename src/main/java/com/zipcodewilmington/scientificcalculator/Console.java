@@ -64,7 +64,7 @@ public class Console {
 
         x = Console.getDoubleInput("What is your X value?");
         y = Console.getDoubleInput("What is your Y value?");
-        Console.print(x + " + " + y + " = ");
+        Console.print("\n" + x + " + " + y + " = ");
         return basic.addition(x,y);
     }
 
@@ -75,7 +75,7 @@ public class Console {
 
         x = Console.getDoubleInput("What is your X value?");
         y = Console.getDoubleInput("What is your Y value?");
-        Console.print(x + " - " + y + " = ");
+        Console.print("\n"+ x + " - " + y + " = ");
         return basic.subtraction(x,y);
     }
 
@@ -86,7 +86,7 @@ public class Console {
 
         x = Console.getDoubleInput("What is your X value?");
         y = Console.getDoubleInput("What is your Y value?");
-        Console.print(x + " * " + y + " = ");
+        Console.print("\n"+ x + " * " + y + " = ");
         return basic.multiplication(x,y);
     }
 
@@ -97,7 +97,7 @@ public class Console {
 
         x = Console.getDoubleInput("What is your X value?");
         y = Console.getDoubleInput("What is your Y value?");
-        Console.print(x + "/" + y + " = ");
+        Console.print("\n"+ x + "/" + y + " = ");
         return basic.division(x,y);
     }
 
@@ -108,7 +108,7 @@ public class Console {
 
         x = Console.getDoubleInput("What is your X value?");
         y = Console.getDoubleInput("What is your Y value?");
-        Console.print(x + " ^" + y + " = ");
+        Console.print("\n" + x + " ^" + y + " = ");
         return basic.exponentiation(x, y);
     }
 
@@ -117,7 +117,7 @@ public class Console {
         double x;
 
         x = Console.getDoubleInput("What is your X value?");
-        Console.print(x + " ^2" + " = ");
+        Console.print("\n" + x + " ^2" + " = ");
         return basic.square(x);
     }
 
@@ -126,7 +126,7 @@ public class Console {
         double x;
 
         x = Console.getDoubleInput("What is your X value?");
-        Console.print("SquareRoot(" + x + ")" +" = ");
+        Console.print("\n SquareRoot(" + x + ")" +" = ");
         return basic.squareRoot(x);
     }
 
@@ -135,7 +135,7 @@ public class Console {
         double x;
 
         x = Console.getDoubleInput("What is your X value?");
-        Console.print("1/" + x + " = ");
+        Console.print("\n 1/" + x + " = ");
         return basic.inverse(x);
     }
 

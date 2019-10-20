@@ -28,35 +28,35 @@ public class MainApplication {
             switch (toDo) {
                 case 1 :
                     System.out.println(Console.promptAdd());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 2 :
                     System.out.println(Console.promptSubtract());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 3 :
                     System.out.println(Console.promptMultiply());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 4 :
                     System.out.println(Console.promptDivide());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 5 :
                     System.out.println(Console.promptExponent());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 6 :
                     System.out.println(Console.promptSquare());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 7 :
                     System.out.println(Console.promptSquareRoot());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 8 :
                     System.out.println(Console.promptInverse());
-                    Console.getStringInput("");
+                    Console.println("");
                     break;
                 case 9 :
                     ///////SWITCH TO SCIENTIFIC CALCULATOR/////////
@@ -64,10 +64,10 @@ public class MainApplication {
                     break;
                 case 10 :
                     turnOn = false;
-                    break;
+                    Console.println("");
+                     break;
                 default :
-                    System.out.println("Not an option\nPlease try again\n");
-                    Console.getStringInput("");
+                    System.out.println("\nNot an option\nPlease try again\n");
                     break;
 
             }
