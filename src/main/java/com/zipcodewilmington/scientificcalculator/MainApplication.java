@@ -19,73 +19,48 @@ public class MainApplication {
         * class creation variables
         * */
         ////////////////////////
-        CoreFeatures basic = new CoreFeatures();
         boolean turnOn = true;
         int toDo;
-        double x;
-        double y;
 
         while(turnOn){
             toDo = Console.corePrompt();
 
             switch (toDo) {
                 case 1 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    y = Console.getDoubleInput("What is your Y value?");
-                    Console.print(x + " + " + y + " = ");
-                    System.out.println(basic.addition(x, y));
+                    System.out.println(Console.promptAdd());
                     Console.getStringInput("");
                     break;
                 case 2 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    y = Console.getDoubleInput("What is your Y value?");
-                    Console.print(x + " - " + y + " = ");
-                    System.out.println(basic.subtraction(x, y));
+                    System.out.println(Console.promptSubtract());
                     Console.getStringInput("");
                     break;
                 case 3 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    y = Console.getDoubleInput("What is your Y value?");
-                    Console.print(x + " * " + y + " = ");
-                    System.out.println(basic.multiplication(x, y));
+                    System.out.println(Console.promptMultiply());
                     Console.getStringInput("");
                     break;
                 case 4 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    y = Console.getDoubleInput("What is your Y value?");
-                    Console.print(x + " / " + y + " = ");
-                    System.out.println(basic.division(x, y));
+                    System.out.println(Console.promptDivide());
                     Console.getStringInput("");
                     break;
                 case 5 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    y = Console.getDoubleInput("What is your Y value?");
-                    Console.print(x + " ^" + y + " = ");
-                    System.out.println(basic.exponentiation(x, y));
+                    System.out.println(Console.promptExponent());
                     Console.getStringInput("");
                     break;
                 case 6 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    Console.print(x + " ^2" + " = ");
-                    System.out.println(basic.square(x));
+                    System.out.println(Console.promptSquare());
                     Console.getStringInput("");
                     break;
                 case 7 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    Console.print("SquareRoot( " + x + " )" +" = ");
-                    System.out.println(basic.squareRoot(x));
+                    System.out.println(Console.promptSquareRoot());
                     Console.getStringInput("");
                     break;
                 case 8 :
-                    x = Console.getDoubleInput("What is your X value?");
-                    Console.print("1/" + x + " = ");
-                    System.out.println(basic.inverse(x));
+                    System.out.println(Console.promptInverse());
                     Console.getStringInput("");
                     break;
                 case 9 :
                     ///////SWITCH TO SCIENTIFIC CALCULATOR/////////
                     //////////////////////////////////////////////
-
                     break;
                 case 10 :
                     turnOn = false;
